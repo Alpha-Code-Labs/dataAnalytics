@@ -1,0 +1,278 @@
+[
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Ethnic Wear',
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Co-Ords',
+    minPrice: 1247,
+    maxPrice: 2995
+  },
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Ethnic Wear',
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Ethnic Dresses',
+    minPrice: 1525,
+    maxPrice: 2195
+  },
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Ethnic Wear',
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Kurtas',
+    minPrice: 895,
+    maxPrice: 2452
+  },
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Ethnic Wear',
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Kurta Sets',
+    minPrice: 1036,
+    maxPrice: 2996
+  },
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Co-Ords',
+    minPrice: 1247,
+    maxPrice: 2998
+  },
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Dresses',
+    minPrice: 1186,
+    maxPrice: 3785
+  },
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Jumpsuits',
+    minPrice: 646,
+    maxPrice: 1375
+  },
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Tops',
+    minPrice: 847,
+    maxPrice: 1950
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Skirts & Palazzos',
+    identifiers: [ null, null, null ],
+    subCategory: 'Skirts Women',
+    minPrice: 499,
+    maxPrice: 499
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Dresses',
+    minPrice: 449,
+    maxPrice: 801
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Jeans',
+    minPrice: 1499,
+    maxPrice: 1499
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Sweatshirts',
+    minPrice: 499,
+    maxPrice: 499
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Skirts',
+    minPrice: 469,
+    maxPrice: 499
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Tops',
+    minPrice: 319,
+    maxPrice: 599
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Tshirts',
+    minPrice: 469,
+    maxPrice: 469
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Trousers',
+    minPrice: 539,
+    maxPrice: 539
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Ethnic Wear',
+    identifiers: [ null, null, null ],
+    subCategory: 'Dresses',
+    minPrice: 2519,
+    maxPrice: 2519
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Skirts & Palazzos',
+    identifiers: [ null, null, null ],
+    subCategory: 'Skirts Women',
+    minPrice: 1699,
+    maxPrice: 2899
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Indian & Fusion Wear',
+    categoryName: 'Jackets',
+    identifiers: [ null, null, null ],
+    subCategory: 'Jackets',
+    minPrice: 1999,
+    maxPrice: 3999
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Co-Ords',
+    minPrice: 2499,
+    maxPrice: 2499
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Jumpsuits',
+    minPrice: 1499,
+    maxPrice: 3299
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Shorts',
+    minPrice: 584,
+    maxPrice: 2495
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Skirts',
+    minPrice: 1699,
+    maxPrice: 3299
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ 'Plus Size', null, null ],
+    subCategory: 'Tops',
+    minPrice: 404,
+    maxPrice: 4402
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Western Wear',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Tshirts',
+    minPrice: 2299,
+    maxPrice: 2299
+  }
+]
+
+
+
+
+[
+  {
+    brandName: 'Aaheli',
+    categoryHeader: 'Plus Size',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Jumpsuit',
+    minPrice: 995,
+    maxPrice: 2270
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Plus Size',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Skirts',
+    minPrice: 599,
+    maxPrice: 599
+  },
+  {
+    brandName: 'AAHWAN',
+    categoryHeader: 'Plus Size',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Tops',
+    minPrice: 499,
+    maxPrice: 499
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Plus Size',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Jackets',
+    minPrice: 1999,
+    maxPrice: 2799
+  },
+  {
+    brandName: 'aaliya',
+    categoryHeader: 'Plus Size',
+    categoryName: null,
+    identifiers: [ null, null, null ],
+    subCategory: 'Jumpsuit',
+    minPrice: 1799,
+    maxPrice: 1799
+  }
+]
