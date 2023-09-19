@@ -15,6 +15,8 @@ const Model = new mongoose.model('myntra_data', schema)
 
 const finalData = []
 const miscelenous = []
+let pmt = []
+
 
 doetenv.config()
 const app = express()
@@ -47,9 +49,6 @@ let currentIndex = 0
 readXlsxFile('./data.xlsx').then((rows) => {
   console.log(rows.length)
 
-
-  brandDataRows = []
-
   rows.map((row,index)=>{
 
     let brandName = row[0]
@@ -76,45 +75,44 @@ readXlsxFile('./data.xlsx').then((rows) => {
             const maxPrice = row[++col]
 
             if(subCategory!=null){
-               if(categoryHeader == 'Plus Size' || categoryHeader == 'Maternity'){
-                let modified = false
-                let needsModification = []
 
-                for(let i=lastBrandIndex; i<finalData.length; i++){
-                  if(finalData[i].subCategory.toLowerCase() == subCategory.toLowerCase()){
-                      needsModification.push(i)
-                      modified = true
-                  }                    
-                }
+               if(lastBrand != brandName){
 
-                needsModification.forEach(ind=>{
-                  if(minPrice < finalData[ind].minPrice) finalData[ind].minPrice = minPrice
-                  if(maxPrice > finalData[ind].maxPrice) finalData[ind].maxPrice = maxPrice
-                })
+                  for(let j=0; j<pmt.length; j++){
+                    let modified = false
+                    for(let i=lastBrandIndex; i<finalData.length; i++){
+                      if(finalData[i].subCategory == pmt[j].subCategory){
+                        if(pmt[j].minPrice < finalData[i].minPrice) finalData[i].minPrice = pmt[j].minPrice
+                        if(pmt[j].maxPrice > finalData[i].maxPrice) finalData[i].maxPrice = pmt[j].maxPrice
 
-                if(!modified){
-                  miscelenous.push({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
-                }
+                        pmt[j].categoryHeader == 'Plus Size' ? finalData[i].identifiers[0] = 'Plus Size' : finalData[i].identifiers[2] = 'Maternity' 
+                        modified = true
+                      }
+                    }
 
-               }
-
-               else{ 
-                if(categoryName == 'Sports Wear'){
-                identifiers[1] = 'Sports Wear'
-                categoryName = ''
-                }
-
-                finalData.push({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
-                
-                if(brandName != lastBrand){
-                  lastBrand = brandName
+                    if(!modified){
+                      miscelenous.push(pmt[j])
+                    }
+                  }
+                  pmt = []
                   lastBrandIndex = currentIndex
-                }
-
-                currentIndex++;
-                
-                //console.log(lastBrand, lastBrandIndex)
+                  lastBrand = brandName
                }
+               
+               if(categoryHeader == 'Plus Size' || categoryHeader == 'Maternity'){
+                pmt.push({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
+               }
+
+               else{
+                if(categoryName == 'Sports Wear'){
+                  identifiers[1] = 'Sports Wear'
+                  categoryName = ''
+                  }
+  
+                  finalData.push({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
+                  currentIndex++
+               }
+
             }
                 //items.push({name: subCategory, minPrice, maxPrice})
         }
