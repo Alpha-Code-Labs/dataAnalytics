@@ -4,7 +4,6 @@ import doetenv from 'dotenv'
 import mongoose from "mongoose"
 import fs from 'fs'
 
-
 const schema = new mongoose.Schema({
   indianAndFusionWear:[Object],
   westernWear:[Object],
@@ -43,19 +42,28 @@ const brandItems = []
 
 let lastBrand = 'Aaheli'
 let lastBrandIndex = 0
-let lastCategoryHeader = 'Indian & Fusion Wear'  //can only be 'Indian & Fusion Wear', 'Western Wear', 'Lingerie & Sleepwear'
-let lastCategoryHeaderIndex = 0
-
-
+let currentIndex = 0
 
 readXlsxFile('./data.xlsx').then((rows) => {
   console.log(rows.length)
+
+
+  brandDataRows = []
+
+  rows.map((row,index)=>{
+
+    let brandName = row[0]
+    const categoryHeader = row[1]
+    const brandIndex = 0
+    let brandRows = rows.filter(entry=>{entry[0] == brandName})
+
+  })
 
   rows.map(async (row, index)=>{
     if(index>0){
         const brandName = row[0]
         const categoryHeader = row[1]
-        const categoryName = row[2]
+        let categoryName = row[2]
         const identifiers = [row[3], row[4], row[5]]
 
         let col=5;
@@ -66,25 +74,23 @@ readXlsxFile('./data.xlsx').then((rows) => {
             const subCategory = row[++col]
             const minPrice = row[++col]
             const maxPrice = row[++col]
-            if(subCategory!=null){
-              let push = true
-              
-              if(push){
 
+            if(subCategory!=null){
                if(categoryHeader == 'Plus Size' || categoryHeader == 'Maternity'){
                 let modified = false
+                let needsModification = []
+
                 for(let i=lastBrandIndex; i<finalData.length; i++){
                   if(finalData[i].subCategory.toLowerCase() == subCategory.toLowerCase()){
-                  //  console.log(`${lastBrand} modified by-${index} modified-${i} from-subCategory: ${finalData[i].subCategory} to-subCategory: ${subCategory} subCategory-${subCategory}`)
-                    if(minPrice < finalData[i].minPrice) finalData[i].minPrice = minPrice;
-                    if(maxPrice > finalData[i].maxPrice) finalData[i].maxPrice = maxPrice;
-
-                    categoryHeader == 'Plus Size'? finalData[i].identifiers[0] = 'Plus Size' : finalData[i].identifiers[2]='Maternity'
-                    modified = true
-                    
-                   // console.log(finalData[i])
-                  }
+                      needsModification.push(i)
+                      modified = true
+                  }                    
                 }
+
+                needsModification.forEach(ind=>{
+                  if(minPrice < finalData[ind].minPrice) finalData[ind].minPrice = minPrice
+                  if(maxPrice > finalData[ind].maxPrice) finalData[ind].maxPrice = maxPrice
+                })
 
                 if(!modified){
                   miscelenous.push({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
@@ -92,30 +98,23 @@ readXlsxFile('./data.xlsx').then((rows) => {
 
                }
 
-               else{
-                
-                if(categoryName == 'Sports Wear')
+               else{ 
+                if(categoryName == 'Sports Wear'){
                 identifiers[1] = 'Sports Wear'
-                //categoryName = ''
-                finalData.push({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
-               // console.log({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
+                categoryName = ''
+                }
 
+                finalData.push({brandName, categoryHeader, categoryName, identifiers, subCategory, minPrice, maxPrice})
+                
                 if(brandName != lastBrand){
                   lastBrand = brandName
-                  lastBrandIndex = index
-                  lastCategoryHeader = categoryHeader
-                  lastCategoryHeaderIndex = index
+                  lastBrandIndex = currentIndex
                 }
 
-                else if(categoryHeader != lastCategoryHeader){
-                  lastCategoryHeader = categoryHeader
-                  lastCategoryHeaderIndex = index
-                }
-
+                currentIndex++;
+                
                 //console.log(lastBrand, lastBrandIndex)
                }
-              }
-
             }
                 //items.push({name: subCategory, minPrice, maxPrice})
         }
@@ -154,7 +153,7 @@ readXlsxFile('./data.xlsx').then((rows) => {
 
   //save to database
   const newFinalData = new Model({indianAndFusionWear, westernWear, lingerie, miscellaneous: miscelenous})
-  newFinalData.save()
+  //newFinalData.save()
 
   let writestream = fs.createWriteStream('./test.xls');
   
@@ -176,6 +175,32 @@ readXlsxFile('./data.xlsx').then((rows) => {
   }
 
   writestream.close()
+
+
+
+
+
+
+  let Writestream = fs.createWriteStream('./misc.xls');
+  
+  Writestream.write("Brand"+"\t"+"Category Header"+"\t"+"Category"+"\t"+"Tag-1"+"\t"+"Tag-2"+"\t"+"Tag-3"+"\t"+"Sub Category"+"\t"+"Min Price"+"\t"+"Max Price"+ "\n")
+  for(let i=0; i<miscelenous.length; i++){
+    const brand = miscelenous[i].brandName
+    const header = miscelenous[i].categoryHeader
+    const category = miscelenous[i].categoryName ? miscelenous[i].categoryName : ''
+    const tag1 = miscelenous[i].identifiers[0] ? miscelenous[i].identifiers[0] : ''
+    const tag2 = miscelenous[i].identifiers[1] ? miscelenous[i].identifiers[1] : ''
+    const tag3 = miscelenous[i].identifiers[2] ? miscelenous[i].identifiers[2] : ''
+    const subCategory = miscelenous[i].subCategory
+    const min = miscelenous[i].minPrice
+    const max = miscelenous[i].maxPrice
+
+    const row = brand+"\t"+header+"\t"+category+"\t"+tag1+"\t"+tag2+"\t"+tag3+"\t"+subCategory+"\t"+min+"\t"+max + "\n"
+
+    Writestream.write(row)
+  }
+
+  Writestream.close()
 })
 
 
