@@ -1,13 +1,14 @@
+//Purpose: Transforms the excel data into frontend needs
+// Input: brandData4.xlsx
+// Output: data.json
+//output stucture: check data.json
+
 import readXlsxFile from "read-excel-file/node";
 import fs from 'fs'
 
 const excelFilePath = './data/final/brandData4.xlsx'
-const transformedData = {
-    'indie':{},
-    'western':{},
-    'lingerie':{}
-}
 const data = []
+
 
 let startTime = Date.now()
 
