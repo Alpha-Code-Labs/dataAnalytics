@@ -1,7 +1,7 @@
 import readXlsxFile from "read-excel-file/node";
 import fs from "fs";
 
-const excelFilePath = './data.xlsx'
+const excelFilePath = './data/other/lastUsed/data.xlsx'
 
 readXlsxFile(excelFilePath).then((rows) => {
   console.log(rows.length);
@@ -17,10 +17,13 @@ readXlsxFile(excelFilePath).then((rows) => {
 
       for (let i = 0; i < 6; i++) {
         const subCategory = row[++col];
-        const minPrice = row[++col];
-        const maxPrice = row[++col];
+        let minPrice = row[++col];
+        let maxPrice = row[++col];
+        
+        if(minPrice == null && maxPrice != null) minPrice = maxPrice
+        if(maxPrice == null && minPrice != null) maxPrice = minPrice
 
-        if (subCategory != null) {
+        if (subCategory != null && minPrice!=null && maxPrice!=null) {
           bdrows.push({
             brandName,
             categoryHeader,
