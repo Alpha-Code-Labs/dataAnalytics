@@ -98,7 +98,6 @@ readXlsxFile('./data/other/lastUsed/os.xlsx').then((rows) => {
 
   writestream.close()
 
-
   let Writestream = fs.createWriteStream('./misc.xls');
   
   Writestream.write("Brand"+"\t"+"Category Header"+"\t"+"Category"+"\t"+"Tag-1"+"\t"+"Tag-2"+"\t"+"Tag-3"+"\t"+"Sub Category"+"\t"+"Min Price"+"\t"+"Max Price"+ "\n")
