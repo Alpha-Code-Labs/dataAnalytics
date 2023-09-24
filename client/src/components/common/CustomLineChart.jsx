@@ -57,11 +57,19 @@ const defaultData = [
 export default function CustomLineChart(props) {
     const data = props.data || defaultData
     const average = props.average
+    const brands = props.brands
     const yLabel = props.yLabel
     const xLabel = props.xLabel
+    const dataKeyX = props.dataKeyX || 'average'
+    const dataKeyY = props.dataKeyY || 'brands'
+
+    const widht = 350
+    const height = 200
 
   return (
-    <LineChart
+    <div>
+      <div className="relative">
+         <LineChart
         width={350}
         height={200}
         data={data}
@@ -72,19 +80,29 @@ export default function CustomLineChart(props) {
             bottom: 25
         }}
         >
-        <CartesianGrid strokeDasharray="4 4" />
-        <XAxis label={{ value: xLabel, angle: 0, offset:5, position: 'bottom' }} dataKey="x_val" interval={15} />
-        <YAxis label={{ value: yLabel, angle: -90, offset:-15, position: 'left', textAnchor: 'middle' }} />
+        <CartesianGrid strokeDasharray="0 0"  vertical={false} />
+        <XAxis  dataKey='average'  type='number' tickCount={10} interval="preserveStartEnd" />
+        <YAxis type='number' />
         <Tooltip />
         
-        <ReferenceLine x={average} stroke="red" label="Max PV PAGE" />
+        <ReferenceLine x={average} stroke="green"  type='category' />
         <Line
             type="monotone"
-            dataKey="y_val"
+            dataKey='brands'
             stroke="#8884d8"
             dot={false}
             //activeDot={{ r: 8 }}
         />
     </LineChart>
+    <div className={`absolute right-[94px] top-[174px]`}>
+      <p className="text-sm text-gray-400">{`${xLabel}`}</p>
+    </div>
+
+    <div className="absolute -left-[24px] top-[64px] -rotate-90">
+      <p className="text-sm text-gray-400">{yLabel}</p>
+    </div>
+
+    </div>
+    </div>
   );
 }

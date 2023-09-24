@@ -19,10 +19,7 @@ export default function Sidebar(props){
 
             <div className="flex flex-col gap-1">
                 <Items text='Overview' activeItem={activeItem} handleItemClick={handleItemClick} />
-                <hr />
-                <p className="text-lg text-gray-400 pl-6 py-2">Categories</p>
-                <hr />
-                <p></p>
+                <p className="text-sm text-gray-500 pl-6 py-2 -mb-2 mt-2">Categories</p>
                 <Items text='Indian & Fusion Wear' activeItem={activeItem} handleItemClick={handleItemClick} />
                 <Items text='Western Wear' activeItem={activeItem} handleItemClick={handleItemClick} />
                 <Items text= 'Lingerie & Sleep Wear' activeItem={activeItem} handleItemClick={handleItemClick} />

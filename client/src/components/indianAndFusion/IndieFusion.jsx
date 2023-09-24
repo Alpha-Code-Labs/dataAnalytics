@@ -1,29 +1,68 @@
-import { useState } from 'react';
-import {PieChart, Pie, Tooltip} from 'recharts'
-import CustomPieChart from '../common/CustomPieChart';
+import { useState } from "react"
+import ClubbedItems from "../common/ClubbedItems"
+import Tile from "../common/Tile"
+import SubCatDetails from "../common/SubCatDetails"
 
-const innerdata = [
-    { name: 'Indian & Fusion Wear', value: 1810 },
-    { name: 'Western Wear', value: 1830 },
-    { name: 'Lingerie & Sleep Wear', value: 803 },
-  ];
+export default function IndieFusion(props){
+  const data = props.data
   
-  const outerdata = [
-    { name: 'P1', value: 10 },
-    { name: 'P2', value: 100 },
-    { name: 'P3', value: 20 },
-    { name: 'P4', value: 30 },
-    { name: 'P5', value: 90 }
-  ];
+  const categories = []
+
+  for(const category in data){
+    const clubbedItemsData = []
+    for(const subCategory in data[category]){
+      clubbedItemsData.push({...data[category][subCategory], category, subCategory, categoryHeader: 'Indian & Fusion Wear'})
+    }
+    categories.push({categoryName: category, clubbedItemsData})
+  }
+
+
   
+  const [showDetails, setShowDetails] = useState(false)
+  const [itemDetailsData, setItemDetailsData] = useState([])
 
-  const tabs = ['Dupatta & Shawls', 'Ethnic Wear', 'Jackets', 'Kurta & Suits', 'Kurtis, Tunics & Tops', 'Leggings Salwars & Churidars', 'Sarees', 'Skirts & Plazzos']
+  const onItemClick = ({categoryHeader, category, subCategory, classType}) =>{
+    const type = classType == 'Mass' ? 'mass' : 'lux' 
+    setItemDetailsData(data[category][subCategory][type].brands)
+    setShowDetails(true)
+  }
 
-export default function IndieFusion(){
 
-    const [activeTab, setActiveTab] = useState(tabs[0])
+      
+  return(<>
 
-    return(<>
-        <CustomPieChart data={innerdata} />
-    </>)
+      <div className="w-[90%] gap-1 flex justify-center items-center mt-6">            
+    
+          <div className="w-1/3">
+              <Tile text='Total Brands' val='1100' /> 
+          </div>
+          <div className="w-1/3">
+              <Tile text='Total Products' val='170' /> 
+          </div>
+          <div className="w-1/3">
+              <Tile text='Average Price' val='2170' /> 
+          </div>
+
+      </div>
+
+      {
+          categories.map(category=>{
+            return(
+              <>
+                {category.clubbedItemsData.map(item=>{
+                return(<ClubbedItems data={item} onItemClick={onItemClick} />)
+              })}
+              </>
+            )
+          }) 
+      }
+
+        
+      {showDetails && 
+      <div className="fixed w-[100%] h-[100%] bg-[#53535399] left-0 top-0">
+        <SubCatDetails setShowDetails={setShowDetails} data={itemDetailsData} />
+      </div> }
+
+      
+  </>)
 }

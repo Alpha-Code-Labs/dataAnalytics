@@ -1,31 +1,39 @@
-import CustomLineChart from "../common/CustomLineChart";
-import blazerData1 from '../../data/blazerAverage.json'
-import blazerData2 from '../../data/blazerAverage2.json'
-import blazerData3 from '../../data/blazerAverage3.json'
-import ClubbedItems from "./clubbedItems";
+import { useEffect, useState } from "react";
+import ClubbedItems from "../common/ClubbedItems";
 import Tile from "../common/Tile";
+import SubCatDetails from "../common/SubCatDetails";
 
 
-export default function Western(props){
+export default function WesternCopy(props){
 
     const data = props.data
-
-    const clubbedItemsData = {
-        subCategory: 'Blazzers',
-        mass:{
-            brandCount:127,
-            avgPrice:2500,
-            graphData:blazerData2
-        },
-
-        lux:{
-            brandCount:4,
-            avgPrice:8700,
-            graphData:blazerData2
-        }
+    const clubbedItemsData = []
+    for(const subCategory in data){
+      clubbedItemsData.push({...data[subCategory], subCategory, categoryHeader: 'Western'})
+    }
+    
+    const [showDetails, setShowDetails] = useState(false)
+    const [itemDetailsData, setItemDetailsData] = useState([])
+  
+    const onItemClick = ({subCategory, classType}) =>{
+      const type = classType == 'Mass' ? 'mass' : 'lux' 
+      setItemDetailsData(data[subCategory][type].brands)
+      setShowDetails(true)
     }
 
+    const [loading, setLoading] = useState(true)
+
+    console.log('rendering started')
+    const start = Date.now()
+
+    useEffect(()=>{
+        console.log('rendering complete ', Date.now()-start)
+        setLoading(false)
+    },[])
+        
     return(<>
+
+        {loading && <div className="w-[100%] h-[100%] bg-white">loading...</div>}
 
         <div className="w-[90%] gap-1 flex justify-center items-center mt-6">            
             
@@ -41,11 +49,16 @@ export default function Western(props){
 
         </div>
 
-        
+        {
+            clubbedItemsData.map(item=><ClubbedItems data={item} onItemClick={onItemClick} />)
+        }
 
-        <ClubbedItems data={clubbedItemsData} />
-        <ClubbedItems data={clubbedItemsData} />
-        
+
+    {showDetails && 
+      <div className="fixed w-[100%] h-[100%] bg-[#53535399] left-0 top-0">
+        <SubCatDetails setShowDetails={setShowDetails} data={itemDetailsData} />
+      </div> }
+
         
     </>)
 }
