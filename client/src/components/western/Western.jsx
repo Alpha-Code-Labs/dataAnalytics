@@ -37,7 +37,7 @@ export default function WesternCopy(props){
         <div className={`w-[90%] gap-1 flex justify-center items-center mt-6 ${showDetails && 'overflow-y-hidden' }`}>            
             
             <div className="w-1/3">
-                <Tile text='Total Brands' val='1810' /> 
+                <Tile text='Total Brands' val='1830' /> 
             </div>
         </div>
 
