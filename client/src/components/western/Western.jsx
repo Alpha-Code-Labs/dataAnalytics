@@ -7,6 +7,7 @@ import SubCatDetails from "../common/SubCatDetails";
 export default function WesternCopy(props){
     
     const setLoading = props.setLoading
+    const setDisableScroll = props.setDisableScroll 
     const data = props.data
     const clubbedItemsData = []
     for(const subCategory in data){
@@ -22,6 +23,9 @@ export default function WesternCopy(props){
       setShowDetails(true)
     }
 
+    useEffect(()=>{
+      setDisableScroll(showDetails)
+    }, [showDetails])
 
     console.log('rendering started')
     const start = Date.now()
@@ -34,15 +38,15 @@ export default function WesternCopy(props){
     return(<>
 
 
-        <div className={`w-[90%] gap-1 flex justify-center items-center mt-6 ${showDetails && 'overflow-y-hidden' }`}>            
+        <div className={`w-[90%] gap-1 flex justify-center items-center mt-6 ${showDetails && 'overscroll-none' }`}>            
             
             <div className="w-1/3">
-                <Tile text='Total Brands' val='1830' /> 
+                <Tile text='Total Brands' val='1841' /> 
             </div>
         </div>
 
         {
-            clubbedItemsData.map(item=><ClubbedItems data={item} onItemClick={onItemClick} />)
+            clubbedItemsData.map((item,index)=><ClubbedItems key={index} data={item} onItemClick={onItemClick} />)
         }
 
 

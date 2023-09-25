@@ -26,7 +26,7 @@ export default function Lingerie(props){
       <div className="w-[90%] gap-1 flex justify-center items-center mt-6">            
           
           <div className="w-1/3">
-              <Tile text='Total Brands' val='803' /> 
+              <Tile text='Total Brands' val='804' /> 
           </div>
         
       </div>

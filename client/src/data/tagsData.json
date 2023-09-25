@@ -1,0 +1,2504 @@
+{
+    "plusSizeData": {
+        "Western Wear": {
+            "categories": [
+                {
+                    "subCat": "Shrug",
+                    "Plus Size": 127,
+                    "Regular": 142,
+                    "avg": 1152.0275590551182
+                },
+                {
+                    "subCat": "Sweaters",
+                    "Plus Size": 89,
+                    "Regular": 110,
+                    "avg": 1552.7977528089887
+                },
+                {
+                    "subCat": "Dresses",
+                    "Plus Size": 525,
+                    "Regular": 555,
+                    "avg": 1770.5914285714287
+                },
+                {
+                    "subCat": "Jeans",
+                    "Plus Size": 104,
+                    "Regular": 122,
+                    "avg": 1448.798076923077
+                },
+                {
+                    "subCat": "Jumpsuits",
+                    "Plus Size": 142,
+                    "Regular": 237,
+                    "avg": 1583.7852112676057
+                },
+                {
+                    "subCat": "Sweatshirts",
+                    "Plus Size": 141,
+                    "Regular": 260,
+                    "avg": 1181.3617021276596
+                },
+                {
+                    "subCat": "Shirts",
+                    "Plus Size": 175,
+                    "Regular": 259,
+                    "avg": 1137.922857142857
+                },
+                {
+                    "subCat": "Shorts",
+                    "Plus Size": 111,
+                    "Regular": 309,
+                    "avg": 835.1531531531532
+                },
+                {
+                    "subCat": "Skirts",
+                    "Plus Size": 166,
+                    "Regular": 239,
+                    "avg": 1199.7710843373493
+                },
+                {
+                    "subCat": "Tops",
+                    "Plus Size": 505,
+                    "Regular": 607,
+                    "avg": 995.1851485148514
+                },
+                {
+                    "subCat": "Tshirts",
+                    "Plus Size": 185,
+                    "Regular": 405,
+                    "avg": 771.1945945945946
+                },
+                {
+                    "subCat": "Trousers",
+                    "Plus Size": 297,
+                    "Regular": 326,
+                    "avg": 1166.3148148148148
+                },
+                {
+                    "subCat": "Jackets",
+                    "Plus Size": 158,
+                    "Regular": 268,
+                    "avg": 1978.4493670886077
+                },
+                {
+                    "subCat": "Blazers",
+                    "Plus Size": 36,
+                    "Regular": 95,
+                    "avg": 1773.0972222222222
+                },
+                {
+                    "subCat": "BodySuits",
+                    "Plus Size": 0,
+                    "Regular": 31,
+                    "avg": null
+                },
+                {
+                    "subCat": "Co-Ords",
+                    "Plus Size": 138,
+                    "Regular": 381,
+                    "avg": 2214.5797101449275
+                },
+                {
+                    "subCat": "Coats",
+                    "Plus Size": 38,
+                    "Regular": 53,
+                    "avg": 3282.6052631578946
+                },
+                {
+                    "subCat": "Jeggings",
+                    "Plus Size": 90,
+                    "Regular": 70,
+                    "avg": 1079.111111111111
+                },
+                {
+                    "subCat": "Track Pants",
+                    "Plus Size": 100,
+                    "Regular": 254,
+                    "avg": 1045.49
+                },
+                {
+                    "subCat": "Scarves",
+                    "Plus Size": 15,
+                    "Regular": 0,
+                    "avg": 821.5666666666667
+                },
+                {
+                    "subCat": "Dungarees",
+                    "Plus Size": 20,
+                    "Regular": 29,
+                    "avg": 1268.925
+                },
+                {
+                    "subCat": "Tights",
+                    "Plus Size": 35,
+                    "Regular": 217,
+                    "avg": 876.3142857142857
+                },
+                {
+                    "subCat": "Capris",
+                    "Plus Size": 38,
+                    "Regular": 90,
+                    "avg": 823.8684210526316
+                },
+                {
+                    "subCat": "Leggings",
+                    "Plus Size": 86,
+                    "Regular": 124,
+                    "avg": 773.8895348837209
+                },
+                {
+                    "subCat": "Tracksuits",
+                    "Plus Size": 29,
+                    "Regular": 73,
+                    "avg": 2066.706896551724
+                },
+                {
+                    "subCat": "Waistcoat",
+                    "Plus Size": 5,
+                    "Regular": 13,
+                    "avg": 858.1
+                },
+                {
+                    "subCat": "Clothing Set",
+                    "Plus Size": 7,
+                    "Regular": 29,
+                    "avg": 1903.4285714285713
+                },
+                {
+                    "subCat": "Bodysuits",
+                    "Plus Size": 3,
+                    "Regular": 0,
+                    "avg": 940.6666666666666
+                },
+                {
+                    "subCat": "Tunics",
+                    "Plus Size": 1,
+                    "Regular": 0,
+                    "avg": 812
+                },
+                {
+                    "subCat": "Swimwear",
+                    "Plus Size": 0,
+                    "Regular": 2,
+                    "avg": null
+                },
+                {
+                    "subCat": "Rain Jacket",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                }
+            ]
+        },
+        "Indian & Fusion Wear": {
+            "Dress Material": {
+                "categories": [
+                    {
+                        "subCat": "Dress Material",
+                        "Plus Size": 1,
+                        "Regular": 87,
+                        "avg": 1455
+                    }
+                ]
+            },
+            "Dupattas & Shawls": {
+                "categories": [
+                    {
+                        "subCat": "Dupatta",
+                        "Plus Size": 1,
+                        "Regular": 147,
+                        "avg": 711.5
+                    },
+                    {
+                        "subCat": "Shawls",
+                        "Plus Size": 0,
+                        "Regular": 48,
+                        "avg": null
+                    }
+                ]
+            },
+            "Ethnic Wear": {
+                "categories": [
+                    {
+                        "subCat": "Kurtas",
+                        "Plus Size": 502,
+                        "Regular": 194,
+                        "avg": 1460.211155378486
+                    },
+                    {
+                        "subCat": "Lehenga Cholis Girls",
+                        "Plus Size": 0,
+                        "Regular": 98,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Kurta Sets",
+                        "Plus Size": 485,
+                        "Regular": 138,
+                        "avg": 2432.2113402061855
+                    },
+                    {
+                        "subCat": "Sarees",
+                        "Plus Size": 22,
+                        "Regular": 356,
+                        "avg": 3410.6363636363635
+                    },
+                    {
+                        "subCat": "Dhotis",
+                        "Plus Size": 20,
+                        "Regular": 26,
+                        "avg": 825.675
+                    },
+                    {
+                        "subCat": "Palazzos Women",
+                        "Plus Size": 114,
+                        "Regular": 67,
+                        "avg": 910.7982456140351
+                    },
+                    {
+                        "subCat": "Co-Ords",
+                        "Plus Size": 87,
+                        "Regular": 81,
+                        "avg": 2220.8275862068967
+                    },
+                    {
+                        "subCat": "Ethnic Dresses",
+                        "Plus Size": 319,
+                        "Regular": 190,
+                        "avg": 1699.4921630094043
+                    },
+                    {
+                        "subCat": "Tunics",
+                        "Plus Size": 90,
+                        "Regular": 51,
+                        "avg": 1084.8055555555557
+                    },
+                    {
+                        "subCat": "Kurtis",
+                        "Plus Size": 162,
+                        "Regular": 86,
+                        "avg": 982.5216049382716
+                    },
+                    {
+                        "subCat": "Lehenga Cholis Women",
+                        "Plus Size": 58,
+                        "Regular": 310,
+                        "avg": 5203.336206896552
+                    },
+                    {
+                        "subCat": "Dresses",
+                        "Plus Size": 156,
+                        "Regular": 51,
+                        "avg": 1511.9038461538462
+                    },
+                    {
+                        "subCat": "Dupatta",
+                        "Plus Size": 1,
+                        "Regular": 144,
+                        "avg": 566
+                    },
+                    {
+                        "subCat": "Sweaters",
+                        "Plus Size": 15,
+                        "Regular": 12,
+                        "avg": 1669.8666666666666
+                    },
+                    {
+                        "subCat": "Jackets",
+                        "Plus Size": 28,
+                        "Regular": 27,
+                        "avg": 1870.75
+                    },
+                    {
+                        "subCat": "Shrug",
+                        "Plus Size": 29,
+                        "Regular": 19,
+                        "avg": 1213.3103448275863
+                    },
+                    {
+                        "subCat": "Tops",
+                        "Plus Size": 131,
+                        "Regular": 49,
+                        "avg": 922.8549618320611
+                    },
+                    {
+                        "subCat": "Trousers",
+                        "Plus Size": 79,
+                        "Regular": 29,
+                        "avg": 924.2658227848101
+                    },
+                    {
+                        "subCat": "Coats",
+                        "Plus Size": 1,
+                        "Regular": 3,
+                        "avg": 2809
+                    },
+                    {
+                        "subCat": "Jumpsuits",
+                        "Plus Size": 31,
+                        "Regular": 15,
+                        "avg": 1956.7903225806451
+                    },
+                    {
+                        "subCat": "Salwar",
+                        "Plus Size": 15,
+                        "Regular": 24,
+                        "avg": 958.6333333333333
+                    },
+                    {
+                        "subCat": "Shirts",
+                        "Plus Size": 10,
+                        "Regular": 6,
+                        "avg": 921.6
+                    },
+                    {
+                        "subCat": "Saree Blouse",
+                        "Plus Size": 44,
+                        "Regular": 36,
+                        "avg": 1596.7272727272727
+                    },
+                    {
+                        "subCat": "Skirts",
+                        "Plus Size": 55,
+                        "Regular": 45,
+                        "avg": 1348.2181818181818
+                    },
+                    {
+                        "subCat": "Churidar",
+                        "Plus Size": 11,
+                        "Regular": 7,
+                        "avg": 704.8181818181819
+                    },
+                    {
+                        "subCat": "Dress Material",
+                        "Plus Size": 1,
+                        "Regular": 85,
+                        "avg": 1631
+                    },
+                    {
+                        "subCat": "Slips",
+                        "Plus Size": 4,
+                        "Regular": 0,
+                        "avg": 615.625
+                    },
+                    {
+                        "subCat": "Blazers",
+                        "Plus Size": 4,
+                        "Regular": 1,
+                        "avg": 1336
+                    },
+                    {
+                        "subCat": "Shawls",
+                        "Plus Size": 0,
+                        "Regular": 38,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Briefs",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shapewear",
+                        "Plus Size": 8,
+                        "Regular": 28,
+                        "avg": 923.3125
+                    },
+                    {
+                        "subCat": "Leggings",
+                        "Plus Size": 54,
+                        "Regular": 29,
+                        "avg": 706.0833333333334
+                    },
+                    {
+                        "subCat": "Jeggings",
+                        "Plus Size": 3,
+                        "Regular": 2,
+                        "avg": 1000.8333333333334
+                    },
+                    {
+                        "subCat": "Nehru Jackets",
+                        "Plus Size": 3,
+                        "Regular": 0,
+                        "avg": 1213
+                    },
+                    {
+                        "subCat": "Night Suits",
+                        "Plus Size": 8,
+                        "Regular": 21,
+                        "avg": 1177.8125
+                    },
+                    {
+                        "subCat": "Shorts",
+                        "Plus Size": 1,
+                        "Regular": 2,
+                        "avg": 543
+                    },
+                    {
+                        "subCat": "Nightdress",
+                        "Plus Size": 0,
+                        "Regular": 13,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Burqas",
+                        "Plus Size": 5,
+                        "Regular": 0,
+                        "avg": 1508.5
+                    },
+                    {
+                        "subCat": "Stoles",
+                        "Plus Size": 12,
+                        "Regular": 0,
+                        "avg": 658.8333333333334
+                    },
+                    {
+                        "subCat": "Patiala",
+                        "Plus Size": 4,
+                        "Regular": 12,
+                        "avg": 793.625
+                    },
+                    {
+                        "subCat": "Tights",
+                        "Plus Size": 2,
+                        "Regular": 1,
+                        "avg": 526.5
+                    },
+                    {
+                        "subCat": "Harem Pants",
+                        "Plus Size": 12,
+                        "Regular": 6,
+                        "avg": 1016.0833333333334
+                    },
+                    {
+                        "subCat": "Salwar and Dupatta",
+                        "Plus Size": 2,
+                        "Regular": 3,
+                        "avg": 1169.75
+                    },
+                    {
+                        "subCat": "Lounge Pants",
+                        "Plus Size": 2,
+                        "Regular": 6,
+                        "avg": 807
+                    },
+                    {
+                        "subCat": "Swimwear Cover up Top",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Swimwear",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Bra",
+                        "Plus Size": 9,
+                        "Regular": 6,
+                        "avg": 608.9444444444445
+                    },
+                    {
+                        "subCat": "Jeans",
+                        "Plus Size": 4,
+                        "Regular": 1,
+                        "avg": 1611.75
+                    },
+                    {
+                        "subCat": "Swimwear Cover Up Bottom",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Patiala and Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Waistcoat",
+                        "Plus Size": 1,
+                        "Regular": 2,
+                        "avg": 475
+                    },
+                    {
+                        "subCat": "Lounge Shorts",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tshirts",
+                        "Plus Size": 2,
+                        "Regular": 3,
+                        "avg": 715.25
+                    },
+                    {
+                        "subCat": "Robe",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Track Pants",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Baby Dolls",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Sweatshirts",
+                        "Plus Size": 2,
+                        "Regular": 1,
+                        "avg": 1027.25
+                    },
+                    {
+                        "subCat": "Thermal Bottoms",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    }
+                ]
+            },
+            "Jackets": {
+                "categories": [
+                    {
+                        "subCat": "Jackets",
+                        "Plus Size": 155,
+                        "Regular": 289,
+                        "avg": 1977.516129032258
+                    },
+                    {
+                        "subCat": "Nehru Jackets",
+                        "Plus Size": 4,
+                        "Regular": 0,
+                        "avg": 1240.5
+                    }
+                ]
+            },
+            "Kurtas & Suits": {
+                "categories": [
+                    {
+                        "subCat": "Kurtas",
+                        "Plus Size": 508,
+                        "Regular": 221,
+                        "avg": 1461.3356299212599
+                    },
+                    {
+                        "subCat": "Kurta Sets",
+                        "Plus Size": 488,
+                        "Regular": 158,
+                        "avg": 2412.686475409836
+                    },
+                    {
+                        "subCat": "Suits",
+                        "Plus Size": 5,
+                        "Regular": 0,
+                        "avg": 3907.5
+                    }
+                ]
+            },
+            "Kurtis, Tunics & Tops": {
+                "categories": [
+                    {
+                        "subCat": "Tunics",
+                        "Plus Size": 151,
+                        "Regular": 71,
+                        "avg": 995.5794701986755
+                    },
+                    {
+                        "subCat": "Kurtis",
+                        "Plus Size": 188,
+                        "Regular": 89,
+                        "avg": 969.4840425531914
+                    },
+                    {
+                        "subCat": "Tops",
+                        "Plus Size": 155,
+                        "Regular": 71,
+                        "avg": 884.1870967741935
+                    }
+                ]
+            },
+            "Leggings, Salwars & Churidars": {
+                "categories": [
+                    {
+                        "subCat": "Salwar",
+                        "Plus Size": 18,
+                        "Regular": 25,
+                        "avg": 1144.6944444444443
+                    },
+                    {
+                        "subCat": "Churidar",
+                        "Plus Size": 9,
+                        "Regular": 9,
+                        "avg": 716.3888888888889
+                    },
+                    {
+                        "subCat": "Leggings",
+                        "Plus Size": 56,
+                        "Regular": 33,
+                        "avg": 718.4375
+                    },
+                    {
+                        "subCat": "Suits",
+                        "Plus Size": 1,
+                        "Regular": 0,
+                        "avg": 1499
+                    }
+                ]
+            },
+            "Sarees": {
+                "categories": [
+                    {
+                        "subCat": "Sarees",
+                        "Plus Size": 22,
+                        "Regular": 367,
+                        "avg": 3341.681818181818
+                    },
+                    {
+                        "subCat": "Saree Blouse",
+                        "Plus Size": 43,
+                        "Regular": 34,
+                        "avg": 1829.0116279069769
+                    }
+                ]
+            },
+            "Skirts & Palazzos": {
+                "categories": [
+                    {
+                        "subCat": "Skirts Women",
+                        "Plus Size": 0,
+                        "Regular": 440,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Women",
+                        "Plus Size": 4,
+                        "Regular": 309,
+                        "avg": 1033.125
+                    },
+                    {
+                        "subCat": "Skirts Girls",
+                        "Plus Size": 0,
+                        "Regular": 129,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Girls",
+                        "Plus Size": 0,
+                        "Regular": 34,
+                        "avg": null
+                    }
+                ]
+            }
+        },
+        "Lingerie & Sleepwear": {
+            "categories": [
+                {
+                    "subCat": "Camisoles",
+                    "Plus Size": 15,
+                    "Regular": 85,
+                    "avg": 691.4333333333333
+                },
+                {
+                    "subCat": "Stockings",
+                    "Plus Size": 1,
+                    "Regular": 19,
+                    "avg": 402
+                },
+                {
+                    "subCat": "Bra",
+                    "Plus Size": 89,
+                    "Regular": 196,
+                    "avg": 790.9157303370787
+                },
+                {
+                    "subCat": "Lingerie Set",
+                    "Plus Size": 29,
+                    "Regular": 52,
+                    "avg": 700.3793103448276
+                },
+                {
+                    "subCat": "Lounge Pants",
+                    "Plus Size": 42,
+                    "Regular": 155,
+                    "avg": 830.9404761904761
+                },
+                {
+                    "subCat": "Night Suits",
+                    "Plus Size": 62,
+                    "Regular": 340,
+                    "avg": 1283.8790322580646
+                },
+                {
+                    "subCat": "Nightdress",
+                    "Plus Size": 36,
+                    "Regular": 205,
+                    "avg": 1035.5555555555557
+                },
+                {
+                    "subCat": "Lounge Shorts",
+                    "Plus Size": 9,
+                    "Regular": 98,
+                    "avg": 609.2222222222222
+                },
+                {
+                    "subCat": "Baby Dolls",
+                    "Plus Size": 5,
+                    "Regular": 43,
+                    "avg": 920.3
+                },
+                {
+                    "subCat": "Briefs",
+                    "Plus Size": 29,
+                    "Regular": 118,
+                    "avg": 844.1379310344828
+                },
+                {
+                    "subCat": "Swimwear",
+                    "Plus Size": 7,
+                    "Regular": 48,
+                    "avg": 1722.2857142857142
+                },
+                {
+                    "subCat": "Robe",
+                    "Plus Size": 3,
+                    "Regular": 29,
+                    "avg": 1050
+                },
+                {
+                    "subCat": "Shapewear",
+                    "Plus Size": 16,
+                    "Regular": 74,
+                    "avg": 912.03125
+                },
+                {
+                    "subCat": "Thermal Tops",
+                    "Plus Size": 5,
+                    "Regular": 21,
+                    "avg": 1665.6
+                },
+                {
+                    "subCat": "Thermal Bottoms",
+                    "Plus Size": 6,
+                    "Regular": 22,
+                    "avg": 693.75
+                },
+                {
+                    "subCat": "Bath Robe",
+                    "Plus Size": 0,
+                    "Regular": 30,
+                    "avg": null
+                },
+                {
+                    "subCat": "Pyjamas",
+                    "Plus Size": 0,
+                    "Regular": 6,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear Cover Up Bottom",
+                    "Plus Size": 2,
+                    "Regular": 0,
+                    "avg": 696.5
+                },
+                {
+                    "subCat": "Swim Bottoms",
+                    "Plus Size": 1,
+                    "Regular": 0,
+                    "avg": 599
+                },
+                {
+                    "subCat": "Sleepsuit",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear Cover Up Top",
+                    "Plus Size": 4,
+                    "Regular": 0,
+                    "avg": 1628.75
+                }
+            ]
+        }
+    },
+    "sportsWearData": {
+        "Western Wear": {
+            "categories": [
+                {
+                    "subCat": "Shrug",
+                    "Plus Size": 0,
+                    "Regular": 269,
+                    "avg": null
+                },
+                {
+                    "subCat": "Sweaters",
+                    "Plus Size": 0,
+                    "Regular": 199,
+                    "avg": null
+                },
+                {
+                    "subCat": "Dresses",
+                    "Plus Size": 8,
+                    "Regular": 1072,
+                    "avg": 1870.3125
+                },
+                {
+                    "subCat": "Jeans",
+                    "Plus Size": 0,
+                    "Regular": 226,
+                    "avg": null
+                },
+                {
+                    "subCat": "Jumpsuits",
+                    "Plus Size": 5,
+                    "Regular": 374,
+                    "avg": 1817.8
+                },
+                {
+                    "subCat": "Sweatshirts",
+                    "Plus Size": 50,
+                    "Regular": 351,
+                    "avg": 1687.21
+                },
+                {
+                    "subCat": "Shirts",
+                    "Plus Size": 0,
+                    "Regular": 434,
+                    "avg": null
+                },
+                {
+                    "subCat": "Shorts",
+                    "Plus Size": 165,
+                    "Regular": 255,
+                    "avg": 1000.769696969697
+                },
+                {
+                    "subCat": "Skirts",
+                    "Plus Size": 18,
+                    "Regular": 387,
+                    "avg": 1664.9444444444443
+                },
+                {
+                    "subCat": "Tops",
+                    "Plus Size": 100,
+                    "Regular": 1012,
+                    "avg": 1095.325
+                },
+                {
+                    "subCat": "Tshirts",
+                    "Plus Size": 157,
+                    "Regular": 433,
+                    "avg": 957.8662420382166
+                },
+                {
+                    "subCat": "Trousers",
+                    "Plus Size": 19,
+                    "Regular": 604,
+                    "avg": 1568.842105263158
+                },
+                {
+                    "subCat": "Jackets",
+                    "Plus Size": 77,
+                    "Regular": 349,
+                    "avg": 2966.025974025974
+                },
+                {
+                    "subCat": "Blazers",
+                    "Plus Size": 0,
+                    "Regular": 131,
+                    "avg": null
+                },
+                {
+                    "subCat": "BodySuits",
+                    "Plus Size": 1,
+                    "Regular": 30,
+                    "avg": 4050
+                },
+                {
+                    "subCat": "Co-Ords",
+                    "Plus Size": 37,
+                    "Regular": 482,
+                    "avg": 1978.3513513513512
+                },
+                {
+                    "subCat": "Coats",
+                    "Plus Size": 3,
+                    "Regular": 88,
+                    "avg": 3184.6666666666665
+                },
+                {
+                    "subCat": "Jeggings",
+                    "Plus Size": 0,
+                    "Regular": 160,
+                    "avg": null
+                },
+                {
+                    "subCat": "Track Pants",
+                    "Plus Size": 224,
+                    "Regular": 130,
+                    "avg": 1249.8482142857142
+                },
+                {
+                    "subCat": "Scarves",
+                    "Plus Size": 0,
+                    "Regular": 15,
+                    "avg": null
+                },
+                {
+                    "subCat": "Dungarees",
+                    "Plus Size": 0,
+                    "Regular": 49,
+                    "avg": null
+                },
+                {
+                    "subCat": "Tights",
+                    "Plus Size": 219,
+                    "Regular": 33,
+                    "avg": 1261.337899543379
+                },
+                {
+                    "subCat": "Capris",
+                    "Plus Size": 57,
+                    "Regular": 71,
+                    "avg": 872.4473684210526
+                },
+                {
+                    "subCat": "Leggings",
+                    "Plus Size": 39,
+                    "Regular": 171,
+                    "avg": 1480.448717948718
+                },
+                {
+                    "subCat": "Tracksuits",
+                    "Plus Size": 102,
+                    "Regular": 0,
+                    "avg": 2022.7058823529412
+                },
+                {
+                    "subCat": "Waistcoat",
+                    "Plus Size": 2,
+                    "Regular": 16,
+                    "avg": 515.75
+                },
+                {
+                    "subCat": "Clothing Set",
+                    "Plus Size": 0,
+                    "Regular": 36,
+                    "avg": null
+                },
+                {
+                    "subCat": "Bodysuits",
+                    "Plus Size": 0,
+                    "Regular": 3,
+                    "avg": null
+                },
+                {
+                    "subCat": "Tunics",
+                    "Plus Size": 0,
+                    "Regular": 1,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear",
+                    "Plus Size": 2,
+                    "Regular": 0,
+                    "avg": 3399.5
+                },
+                {
+                    "subCat": "Rain Jacket",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                }
+            ]
+        },
+        "Indian & Fusion Wear": {
+            "Dress Material": {
+                "categories": [
+                    {
+                        "subCat": "Dress Material",
+                        "Plus Size": 0,
+                        "Regular": 88,
+                        "avg": null
+                    }
+                ]
+            },
+            "Dupattas & Shawls": {
+                "categories": [
+                    {
+                        "subCat": "Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 148,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shawls",
+                        "Plus Size": 0,
+                        "Regular": 48,
+                        "avg": null
+                    }
+                ]
+            },
+            "Ethnic Wear": {
+                "categories": [
+                    {
+                        "subCat": "Kurtas",
+                        "Plus Size": 0,
+                        "Regular": 696,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Lehenga Cholis Girls",
+                        "Plus Size": 0,
+                        "Regular": 98,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Kurta Sets",
+                        "Plus Size": 0,
+                        "Regular": 623,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Sarees",
+                        "Plus Size": 0,
+                        "Regular": 378,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Dhotis",
+                        "Plus Size": 0,
+                        "Regular": 46,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Women",
+                        "Plus Size": 0,
+                        "Regular": 181,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Co-Ords",
+                        "Plus Size": 0,
+                        "Regular": 168,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Ethnic Dresses",
+                        "Plus Size": 0,
+                        "Regular": 509,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tunics",
+                        "Plus Size": 0,
+                        "Regular": 141,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Kurtis",
+                        "Plus Size": 0,
+                        "Regular": 248,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Lehenga Cholis Women",
+                        "Plus Size": 0,
+                        "Regular": 368,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Dresses",
+                        "Plus Size": 0,
+                        "Regular": 207,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 145,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Sweaters",
+                        "Plus Size": 0,
+                        "Regular": 27,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Jackets",
+                        "Plus Size": 0,
+                        "Regular": 55,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shrug",
+                        "Plus Size": 0,
+                        "Regular": 48,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tops",
+                        "Plus Size": 0,
+                        "Regular": 180,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Trousers",
+                        "Plus Size": 0,
+                        "Regular": 108,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Coats",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Jumpsuits",
+                        "Plus Size": 0,
+                        "Regular": 46,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Salwar",
+                        "Plus Size": 0,
+                        "Regular": 39,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shirts",
+                        "Plus Size": 0,
+                        "Regular": 16,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Saree Blouse",
+                        "Plus Size": 0,
+                        "Regular": 80,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Skirts",
+                        "Plus Size": 0,
+                        "Regular": 100,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Churidar",
+                        "Plus Size": 0,
+                        "Regular": 18,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Dress Material",
+                        "Plus Size": 0,
+                        "Regular": 86,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Slips",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Blazers",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shawls",
+                        "Plus Size": 0,
+                        "Regular": 38,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Briefs",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shapewear",
+                        "Plus Size": 0,
+                        "Regular": 36,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Leggings",
+                        "Plus Size": 0,
+                        "Regular": 83,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Jeggings",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Nehru Jackets",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Night Suits",
+                        "Plus Size": 0,
+                        "Regular": 29,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shorts",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Nightdress",
+                        "Plus Size": 0,
+                        "Regular": 13,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Burqas",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Stoles",
+                        "Plus Size": 0,
+                        "Regular": 12,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Patiala",
+                        "Plus Size": 0,
+                        "Regular": 16,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tights",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Harem Pants",
+                        "Plus Size": 0,
+                        "Regular": 18,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Salwar and Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Lounge Pants",
+                        "Plus Size": 0,
+                        "Regular": 8,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Swimwear Cover up Top",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Swimwear",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Bra",
+                        "Plus Size": 0,
+                        "Regular": 15,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Jeans",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Swimwear Cover Up Bottom",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Patiala and Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Waistcoat",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Lounge Shorts",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tshirts",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Robe",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Track Pants",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Baby Dolls",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Sweatshirts",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Thermal Bottoms",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    }
+                ]
+            },
+            "Jackets": {
+                "categories": [
+                    {
+                        "subCat": "Jackets",
+                        "Plus Size": 0,
+                        "Regular": 444,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Nehru Jackets",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    }
+                ]
+            },
+            "Kurtas & Suits": {
+                "categories": [
+                    {
+                        "subCat": "Kurtas",
+                        "Plus Size": 0,
+                        "Regular": 729,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Kurta Sets",
+                        "Plus Size": 0,
+                        "Regular": 646,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Suits",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    }
+                ]
+            },
+            "Kurtis, Tunics & Tops": {
+                "categories": [
+                    {
+                        "subCat": "Tunics",
+                        "Plus Size": 0,
+                        "Regular": 222,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Kurtis",
+                        "Plus Size": 0,
+                        "Regular": 277,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tops",
+                        "Plus Size": 0,
+                        "Regular": 226,
+                        "avg": null
+                    }
+                ]
+            },
+            "Leggings, Salwars & Churidars": {
+                "categories": [
+                    {
+                        "subCat": "Salwar",
+                        "Plus Size": 0,
+                        "Regular": 43,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Churidar",
+                        "Plus Size": 0,
+                        "Regular": 18,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Leggings",
+                        "Plus Size": 0,
+                        "Regular": 89,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Suits",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    }
+                ]
+            },
+            "Sarees": {
+                "categories": [
+                    {
+                        "subCat": "Sarees",
+                        "Plus Size": 0,
+                        "Regular": 389,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Saree Blouse",
+                        "Plus Size": 0,
+                        "Regular": 77,
+                        "avg": null
+                    }
+                ]
+            },
+            "Skirts & Palazzos": {
+                "categories": [
+                    {
+                        "subCat": "Skirts Women",
+                        "Plus Size": 0,
+                        "Regular": 440,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Women",
+                        "Plus Size": 0,
+                        "Regular": 313,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Skirts Girls",
+                        "Plus Size": 0,
+                        "Regular": 129,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Girls",
+                        "Plus Size": 0,
+                        "Regular": 34,
+                        "avg": null
+                    }
+                ]
+            }
+        },
+        "Lingerie & Sleepwear": {
+            "categories": [
+                {
+                    "subCat": "Camisoles",
+                    "Plus Size": 1,
+                    "Regular": 99,
+                    "avg": 205.5
+                },
+                {
+                    "subCat": "Stockings",
+                    "Plus Size": 0,
+                    "Regular": 20,
+                    "avg": null
+                },
+                {
+                    "subCat": "Bra",
+                    "Plus Size": 190,
+                    "Regular": 95,
+                    "avg": 1147.2605263157895
+                },
+                {
+                    "subCat": "Lingerie Set",
+                    "Plus Size": 0,
+                    "Regular": 81,
+                    "avg": null
+                },
+                {
+                    "subCat": "Lounge Pants",
+                    "Plus Size": 15,
+                    "Regular": 182,
+                    "avg": 1190.7666666666667
+                },
+                {
+                    "subCat": "Night Suits",
+                    "Plus Size": 3,
+                    "Regular": 399,
+                    "avg": 1080.3333333333333
+                },
+                {
+                    "subCat": "Nightdress",
+                    "Plus Size": 0,
+                    "Regular": 241,
+                    "avg": null
+                },
+                {
+                    "subCat": "Lounge Shorts",
+                    "Plus Size": 2,
+                    "Regular": 105,
+                    "avg": 523.5
+                },
+                {
+                    "subCat": "Baby Dolls",
+                    "Plus Size": 16,
+                    "Regular": 32,
+                    "avg": 1019.9375
+                },
+                {
+                    "subCat": "Briefs",
+                    "Plus Size": 65,
+                    "Regular": 82,
+                    "avg": 665.3076923076923
+                },
+                {
+                    "subCat": "Swimwear",
+                    "Plus Size": 21,
+                    "Regular": 34,
+                    "avg": 1820.3333333333333
+                },
+                {
+                    "subCat": "Robe",
+                    "Plus Size": 0,
+                    "Regular": 32,
+                    "avg": null
+                },
+                {
+                    "subCat": "Shapewear",
+                    "Plus Size": 0,
+                    "Regular": 90,
+                    "avg": null
+                },
+                {
+                    "subCat": "Thermal Tops",
+                    "Plus Size": 0,
+                    "Regular": 26,
+                    "avg": null
+                },
+                {
+                    "subCat": "Thermal Bottoms",
+                    "Plus Size": 0,
+                    "Regular": 28,
+                    "avg": null
+                },
+                {
+                    "subCat": "Bath Robe",
+                    "Plus Size": 0,
+                    "Regular": 30,
+                    "avg": null
+                },
+                {
+                    "subCat": "Pyjamas",
+                    "Plus Size": 0,
+                    "Regular": 6,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear Cover Up Bottom",
+                    "Plus Size": 0,
+                    "Regular": 2,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swim Bottoms",
+                    "Plus Size": 0,
+                    "Regular": 1,
+                    "avg": null
+                },
+                {
+                    "subCat": "Sleepsuit",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear Cover Up Top",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                }
+            ]
+        }
+    },
+    "maternityData": {
+        "Western Wear": {
+            "categories": [
+                {
+                    "subCat": "Shrug",
+                    "Plus Size": 4,
+                    "Regular": 265,
+                    "avg": 784.125
+                },
+                {
+                    "subCat": "Sweaters",
+                    "Plus Size": 0,
+                    "Regular": 199,
+                    "avg": null
+                },
+                {
+                    "subCat": "Dresses",
+                    "Plus Size": 75,
+                    "Regular": 1005,
+                    "avg": 1405.4933333333333
+                },
+                {
+                    "subCat": "Jeans",
+                    "Plus Size": 4,
+                    "Regular": 222,
+                    "avg": 1789.875
+                },
+                {
+                    "subCat": "Jumpsuits",
+                    "Plus Size": 0,
+                    "Regular": 379,
+                    "avg": null
+                },
+                {
+                    "subCat": "Sweatshirts",
+                    "Plus Size": 0,
+                    "Regular": 401,
+                    "avg": null
+                },
+                {
+                    "subCat": "Shirts",
+                    "Plus Size": 5,
+                    "Regular": 429,
+                    "avg": 1351
+                },
+                {
+                    "subCat": "Shorts",
+                    "Plus Size": 0,
+                    "Regular": 420,
+                    "avg": null
+                },
+                {
+                    "subCat": "Skirts",
+                    "Plus Size": 2,
+                    "Regular": 403,
+                    "avg": 1228
+                },
+                {
+                    "subCat": "Tops",
+                    "Plus Size": 31,
+                    "Regular": 1081,
+                    "avg": 961.2741935483871
+                },
+                {
+                    "subCat": "Tshirts",
+                    "Plus Size": 7,
+                    "Regular": 583,
+                    "avg": 701.7857142857143
+                },
+                {
+                    "subCat": "Trousers",
+                    "Plus Size": 14,
+                    "Regular": 609,
+                    "avg": 1042.5714285714287
+                },
+                {
+                    "subCat": "Jackets",
+                    "Plus Size": 0,
+                    "Regular": 426,
+                    "avg": null
+                },
+                {
+                    "subCat": "Blazers",
+                    "Plus Size": 0,
+                    "Regular": 131,
+                    "avg": null
+                },
+                {
+                    "subCat": "BodySuits",
+                    "Plus Size": 0,
+                    "Regular": 31,
+                    "avg": null
+                },
+                {
+                    "subCat": "Co-Ords",
+                    "Plus Size": 0,
+                    "Regular": 519,
+                    "avg": null
+                },
+                {
+                    "subCat": "Coats",
+                    "Plus Size": 0,
+                    "Regular": 91,
+                    "avg": null
+                },
+                {
+                    "subCat": "Jeggings",
+                    "Plus Size": 0,
+                    "Regular": 160,
+                    "avg": null
+                },
+                {
+                    "subCat": "Track Pants",
+                    "Plus Size": 6,
+                    "Regular": 348,
+                    "avg": 1237.0833333333333
+                },
+                {
+                    "subCat": "Scarves",
+                    "Plus Size": 0,
+                    "Regular": 15,
+                    "avg": null
+                },
+                {
+                    "subCat": "Dungarees",
+                    "Plus Size": 0,
+                    "Regular": 49,
+                    "avg": null
+                },
+                {
+                    "subCat": "Tights",
+                    "Plus Size": 0,
+                    "Regular": 252,
+                    "avg": null
+                },
+                {
+                    "subCat": "Capris",
+                    "Plus Size": 0,
+                    "Regular": 128,
+                    "avg": null
+                },
+                {
+                    "subCat": "Leggings",
+                    "Plus Size": 15,
+                    "Regular": 195,
+                    "avg": 896.6
+                },
+                {
+                    "subCat": "Tracksuits",
+                    "Plus Size": 0,
+                    "Regular": 102,
+                    "avg": null
+                },
+                {
+                    "subCat": "Waistcoat",
+                    "Plus Size": 0,
+                    "Regular": 18,
+                    "avg": null
+                },
+                {
+                    "subCat": "Clothing Set",
+                    "Plus Size": 0,
+                    "Regular": 36,
+                    "avg": null
+                },
+                {
+                    "subCat": "Bodysuits",
+                    "Plus Size": 0,
+                    "Regular": 3,
+                    "avg": null
+                },
+                {
+                    "subCat": "Tunics",
+                    "Plus Size": 0,
+                    "Regular": 1,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear",
+                    "Plus Size": 0,
+                    "Regular": 2,
+                    "avg": null
+                },
+                {
+                    "subCat": "Rain Jacket",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                }
+            ]
+        },
+        "Indian & Fusion Wear": {
+            "Dress Material": {
+                "categories": [
+                    {
+                        "subCat": "Dress Material",
+                        "Plus Size": 0,
+                        "Regular": 88,
+                        "avg": null
+                    }
+                ]
+            },
+            "Dupattas & Shawls": {
+                "categories": [
+                    {
+                        "subCat": "Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 148,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shawls",
+                        "Plus Size": 0,
+                        "Regular": 48,
+                        "avg": null
+                    }
+                ]
+            },
+            "Ethnic Wear": {
+                "categories": [
+                    {
+                        "subCat": "Kurtas",
+                        "Plus Size": 32,
+                        "Regular": 664,
+                        "avg": 1384.328125
+                    },
+                    {
+                        "subCat": "Lehenga Cholis Girls",
+                        "Plus Size": 0,
+                        "Regular": 98,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Kurta Sets",
+                        "Plus Size": 19,
+                        "Regular": 604,
+                        "avg": 3044.2105263157896
+                    },
+                    {
+                        "subCat": "Sarees",
+                        "Plus Size": 0,
+                        "Regular": 378,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Dhotis",
+                        "Plus Size": 0,
+                        "Regular": 46,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Women",
+                        "Plus Size": 1,
+                        "Regular": 180,
+                        "avg": 817
+                    },
+                    {
+                        "subCat": "Co-Ords",
+                        "Plus Size": 0,
+                        "Regular": 168,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Ethnic Dresses",
+                        "Plus Size": 0,
+                        "Regular": 509,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tunics",
+                        "Plus Size": 1,
+                        "Regular": 140,
+                        "avg": 741.5
+                    },
+                    {
+                        "subCat": "Kurtis",
+                        "Plus Size": 5,
+                        "Regular": 243,
+                        "avg": 951.8
+                    },
+                    {
+                        "subCat": "Lehenga Cholis Women",
+                        "Plus Size": 0,
+                        "Regular": 368,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Dresses",
+                        "Plus Size": 19,
+                        "Regular": 188,
+                        "avg": 1526.4473684210527
+                    },
+                    {
+                        "subCat": "Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 145,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Sweaters",
+                        "Plus Size": 0,
+                        "Regular": 27,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Jackets",
+                        "Plus Size": 0,
+                        "Regular": 55,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shrug",
+                        "Plus Size": 2,
+                        "Regular": 46,
+                        "avg": 1476.5
+                    },
+                    {
+                        "subCat": "Tops",
+                        "Plus Size": 1,
+                        "Regular": 179,
+                        "avg": 920
+                    },
+                    {
+                        "subCat": "Trousers",
+                        "Plus Size": 0,
+                        "Regular": 108,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Coats",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Jumpsuits",
+                        "Plus Size": 0,
+                        "Regular": 46,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Salwar",
+                        "Plus Size": 0,
+                        "Regular": 39,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shirts",
+                        "Plus Size": 0,
+                        "Regular": 16,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Saree Blouse",
+                        "Plus Size": 0,
+                        "Regular": 80,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Skirts",
+                        "Plus Size": 1,
+                        "Regular": 99,
+                        "avg": 915
+                    },
+                    {
+                        "subCat": "Churidar",
+                        "Plus Size": 1,
+                        "Regular": 17,
+                        "avg": 674
+                    },
+                    {
+                        "subCat": "Dress Material",
+                        "Plus Size": 0,
+                        "Regular": 86,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Slips",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Blazers",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shawls",
+                        "Plus Size": 0,
+                        "Regular": 38,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Briefs",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shapewear",
+                        "Plus Size": 0,
+                        "Regular": 36,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Leggings",
+                        "Plus Size": 6,
+                        "Regular": 77,
+                        "avg": 695.25
+                    },
+                    {
+                        "subCat": "Jeggings",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Nehru Jackets",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Night Suits",
+                        "Plus Size": 0,
+                        "Regular": 29,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Shorts",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Nightdress",
+                        "Plus Size": 0,
+                        "Regular": 13,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Burqas",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Stoles",
+                        "Plus Size": 0,
+                        "Regular": 12,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Patiala",
+                        "Plus Size": 0,
+                        "Regular": 16,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tights",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Harem Pants",
+                        "Plus Size": 1,
+                        "Regular": 17,
+                        "avg": 746
+                    },
+                    {
+                        "subCat": "Salwar and Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Lounge Pants",
+                        "Plus Size": 0,
+                        "Regular": 8,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Swimwear Cover up Top",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Swimwear",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Bra",
+                        "Plus Size": 0,
+                        "Regular": 15,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Jeans",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Swimwear Cover Up Bottom",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Patiala and Dupatta",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Waistcoat",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Lounge Shorts",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Tshirts",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Robe",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Track Pants",
+                        "Plus Size": 0,
+                        "Regular": 2,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Baby Dolls",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Sweatshirts",
+                        "Plus Size": 0,
+                        "Regular": 3,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Thermal Bottoms",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    }
+                ]
+            },
+            "Jackets": {
+                "categories": [
+                    {
+                        "subCat": "Jackets",
+                        "Plus Size": 0,
+                        "Regular": 444,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Nehru Jackets",
+                        "Plus Size": 0,
+                        "Regular": 4,
+                        "avg": null
+                    }
+                ]
+            },
+            "Kurtas & Suits": {
+                "categories": [
+                    {
+                        "subCat": "Kurtas",
+                        "Plus Size": 35,
+                        "Regular": 694,
+                        "avg": 1362.5857142857142
+                    },
+                    {
+                        "subCat": "Kurta Sets",
+                        "Plus Size": 21,
+                        "Regular": 625,
+                        "avg": 2733.1190476190477
+                    },
+                    {
+                        "subCat": "Suits",
+                        "Plus Size": 0,
+                        "Regular": 5,
+                        "avg": null
+                    }
+                ]
+            },
+            "Kurtis, Tunics & Tops": {
+                "categories": [
+                    {
+                        "subCat": "Tunics",
+                        "Plus Size": 9,
+                        "Regular": 213,
+                        "avg": 1174.7222222222222
+                    },
+                    {
+                        "subCat": "Kurtis",
+                        "Plus Size": 8,
+                        "Regular": 269,
+                        "avg": 1061.6875
+                    },
+                    {
+                        "subCat": "Tops",
+                        "Plus Size": 2,
+                        "Regular": 224,
+                        "avg": 702.25
+                    }
+                ]
+            },
+            "Leggings, Salwars & Churidars": {
+                "categories": [
+                    {
+                        "subCat": "Salwar",
+                        "Plus Size": 0,
+                        "Regular": 43,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Churidar",
+                        "Plus Size": 0,
+                        "Regular": 18,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Leggings",
+                        "Plus Size": 8,
+                        "Regular": 81,
+                        "avg": 720.125
+                    },
+                    {
+                        "subCat": "Suits",
+                        "Plus Size": 0,
+                        "Regular": 1,
+                        "avg": null
+                    }
+                ]
+            },
+            "Sarees": {
+                "categories": [
+                    {
+                        "subCat": "Sarees",
+                        "Plus Size": 0,
+                        "Regular": 389,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Saree Blouse",
+                        "Plus Size": 0,
+                        "Regular": 77,
+                        "avg": null
+                    }
+                ]
+            },
+            "Skirts & Palazzos": {
+                "categories": [
+                    {
+                        "subCat": "Skirts Women",
+                        "Plus Size": 0,
+                        "Regular": 440,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Women",
+                        "Plus Size": 0,
+                        "Regular": 313,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Skirts Girls",
+                        "Plus Size": 0,
+                        "Regular": 129,
+                        "avg": null
+                    },
+                    {
+                        "subCat": "Palazzos Girls",
+                        "Plus Size": 0,
+                        "Regular": 34,
+                        "avg": null
+                    }
+                ]
+            }
+        },
+        "Lingerie & Sleepwear": {
+            "categories": [
+                {
+                    "subCat": "Camisoles",
+                    "Plus Size": 1,
+                    "Regular": 99,
+                    "avg": 683
+                },
+                {
+                    "subCat": "Stockings",
+                    "Plus Size": 0,
+                    "Regular": 20,
+                    "avg": null
+                },
+                {
+                    "subCat": "Bra",
+                    "Plus Size": 0,
+                    "Regular": 285,
+                    "avg": null
+                },
+                {
+                    "subCat": "Lingerie Set",
+                    "Plus Size": 0,
+                    "Regular": 81,
+                    "avg": null
+                },
+                {
+                    "subCat": "Lounge Pants",
+                    "Plus Size": 0,
+                    "Regular": 197,
+                    "avg": null
+                },
+                {
+                    "subCat": "Night Suits",
+                    "Plus Size": 0,
+                    "Regular": 402,
+                    "avg": null
+                },
+                {
+                    "subCat": "Nightdress",
+                    "Plus Size": 54,
+                    "Regular": 187,
+                    "avg": 1107.962962962963
+                },
+                {
+                    "subCat": "Lounge Shorts",
+                    "Plus Size": 0,
+                    "Regular": 107,
+                    "avg": null
+                },
+                {
+                    "subCat": "Baby Dolls",
+                    "Plus Size": 0,
+                    "Regular": 48,
+                    "avg": null
+                },
+                {
+                    "subCat": "Briefs",
+                    "Plus Size": 0,
+                    "Regular": 147,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear",
+                    "Plus Size": 0,
+                    "Regular": 55,
+                    "avg": null
+                },
+                {
+                    "subCat": "Robe",
+                    "Plus Size": 0,
+                    "Regular": 32,
+                    "avg": null
+                },
+                {
+                    "subCat": "Shapewear",
+                    "Plus Size": 0,
+                    "Regular": 90,
+                    "avg": null
+                },
+                {
+                    "subCat": "Thermal Tops",
+                    "Plus Size": 0,
+                    "Regular": 26,
+                    "avg": null
+                },
+                {
+                    "subCat": "Thermal Bottoms",
+                    "Plus Size": 0,
+                    "Regular": 28,
+                    "avg": null
+                },
+                {
+                    "subCat": "Bath Robe",
+                    "Plus Size": 0,
+                    "Regular": 30,
+                    "avg": null
+                },
+                {
+                    "subCat": "Pyjamas",
+                    "Plus Size": 0,
+                    "Regular": 6,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear Cover Up Bottom",
+                    "Plus Size": 0,
+                    "Regular": 2,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swim Bottoms",
+                    "Plus Size": 0,
+                    "Regular": 1,
+                    "avg": null
+                },
+                {
+                    "subCat": "Sleepsuit",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                },
+                {
+                    "subCat": "Swimwear Cover Up Top",
+                    "Plus Size": 0,
+                    "Regular": 4,
+                    "avg": null
+                }
+            ]
+        }
+    }
+}

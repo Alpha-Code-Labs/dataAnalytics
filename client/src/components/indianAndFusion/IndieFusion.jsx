@@ -34,7 +34,7 @@ export default function IndieFusion(props){
       <div className="w-[90%] gap-1 flex justify-center items-center mt-6">            
     
           <div className="w-1/3">
-              <Tile text='Total Brands' val='1810' /> 
+              <Tile text='Total Brands' val='1809' /> 
           </div>
 
       </div>

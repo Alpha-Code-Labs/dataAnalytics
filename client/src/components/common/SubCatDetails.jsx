@@ -30,7 +30,7 @@ export default function SubCatDetails(props){
 
       
       const sortData = ()=>{
-        
+
       }
     return(<>
          
@@ -51,7 +51,7 @@ export default function SubCatDetails(props){
                    return( 
                     <>
                    <div className="flex gap-2">
-                        <p className="text-sm text-gray-600 w-1/2 ">{brand.brandName}</p>    
+                        <p className="text-sm text-gray-600 w-1/2 ">{titleCase(brand.brandName)}</p>    
                         <p className="text-sm text-gray-600 w-1/6 text-center">{brand.min}</p>
                         <p className="text-sm text-gray-600 w-1/6 text-center">{brand.max}</p>
                         <p className="text-sm text-gray-600 w-1/6 text-center">{brand.avg}</p>
@@ -67,5 +67,8 @@ export default function SubCatDetails(props){
     </>)
 }
 
-
+function titleCase(str){
+    str = str.toLowerCase().split(' ').map(word=>word.replace(word[0],word[0].toUpperCase()))
+    return str.join(' ')
+}
 
