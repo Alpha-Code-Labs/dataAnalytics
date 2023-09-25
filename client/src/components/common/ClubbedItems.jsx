@@ -18,7 +18,7 @@ export default function ClubbedItems(props){
             <hr />
             <Item data={data.mass} categoryHeader={categoryHeader} category={category} subCategory={subCategory}  classType='Mass' onItemClick={onItemClick} />
             <hr/>
-            {(data.lux!={} && data.lux!=null) && <Item data={data.lux} categoryHeader={categoryHeader} category={category} subCategory={subCategory} classType='Luxury' onItemClick={onItemClick} />}
+            {(data.lux!={} && data.lux!=null && data.lux.brands.length > 0) && <Item data={data.lux} categoryHeader={categoryHeader} category={category} subCategory={subCategory} classType='Luxury' onItemClick={onItemClick} />}
         </div>
 
     )

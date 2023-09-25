@@ -74,10 +74,6 @@ export default function CustomPieChart(props) {
               )
           })}
       </div>
-
-      <div className="absolute pt-4">
-        <p>Over 1100 brands, selling across 1200 products</p>
-      </div>
     </div>
     </>
   );
