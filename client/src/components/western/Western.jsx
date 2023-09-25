@@ -5,7 +5,8 @@ import SubCatDetails from "../common/SubCatDetails";
 
 
 export default function WesternCopy(props){
-
+    
+    const setLoading = props.setLoading
     const data = props.data
     const clubbedItemsData = []
     for(const subCategory in data){
@@ -21,7 +22,6 @@ export default function WesternCopy(props){
       setShowDetails(true)
     }
 
-    const [loading, setLoading] = useState(true)
 
     console.log('rendering started')
     const start = Date.now()
@@ -33,20 +33,12 @@ export default function WesternCopy(props){
         
     return(<>
 
-        {loading && <div className="w-[100%] h-[100%] bg-white">loading...</div>}
 
-        <div className="w-[90%] gap-1 flex justify-center items-center mt-6">            
+        <div className={`w-[90%] gap-1 flex justify-center items-center mt-6 ${showDetails && 'overflow-y-hidden' }`}>            
             
             <div className="w-1/3">
-                <Tile text='Total Brands' val='1100' /> 
+                <Tile text='Total Brands' val='1810' /> 
             </div>
-            <div className="w-1/3">
-                <Tile text='Total Products' val='170' /> 
-            </div>
-            <div className="w-1/3">
-                <Tile text='Average Price' val='2170' /> 
-            </div>
-
         </div>
 
         {
@@ -55,7 +47,7 @@ export default function WesternCopy(props){
 
 
     {showDetails && 
-      <div className="fixed w-[100%] h-[100%] bg-[#53535399] left-0 top-0">
+      <div className="fixed w-[100%] h-[100%] bg-[#53535399]  left-0 top-0">
         <SubCatDetails setShowDetails={setShowDetails} data={itemDetailsData} />
       </div> }
 

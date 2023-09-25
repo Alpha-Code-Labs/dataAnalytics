@@ -34,13 +34,7 @@ export default function IndieFusion(props){
       <div className="w-[90%] gap-1 flex justify-center items-center mt-6">            
     
           <div className="w-1/3">
-              <Tile text='Total Brands' val='1100' /> 
-          </div>
-          <div className="w-1/3">
-              <Tile text='Total Products' val='170' /> 
-          </div>
-          <div className="w-1/3">
-              <Tile text='Average Price' val='2170' /> 
+              <Tile text='Total Brands' val='1830' /> 
           </div>
 
       </div>

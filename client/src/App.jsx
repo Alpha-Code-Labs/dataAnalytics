@@ -6,7 +6,6 @@ import Western from './components/western/Western'
 import IndieFusion from './components/indianAndFusion/IndieFusion'
 import Overview from './components/Overview'
 import brandsData from './data/data.json'
-import WesternCopy from './components/western_copy/WesternCopy'
 
 import axios from 'axios'
 
@@ -23,6 +22,7 @@ function App() {
   const [displayOverview, setDisplayOverview] = useState(true)
   const [activeItem, setActiveItem] = useState('overview')
 
+  const [loading, setLoading] = useState(false)
 
   const handleItemClick = (text)=>{
 
@@ -57,9 +57,13 @@ function App() {
     }
 
     setActiveItem(text)
+    setLoading(true)
 
   }
 
+  useEffect(()=>{
+    console.log('loading state update, ', loading)
+  },[loading])
   
 
 
@@ -69,14 +73,13 @@ function App() {
       <div className='relative flex flex-col'>
         <div className='w-[100%] min-h-[100vh] m-0 overflow-hidden flex'>
           <Sidebar handleItemClick={handleItemClick} activeItem={activeItem} />
-      
-            <div className='w-full ml-[244px] flex flex-col items-center bg-slate-100 overflow-x-hidden'>
-                {displayIndieFusion && <IndieFusion data={brandsData['Indian & Fusion Wear']} />}
-                {displayWestern && <Western data={brandsData['Western Wear']} />}
-                {displayWestern && <WesternCopy data={brandsData['Western Wear']} />}
-                {displayLingerie && <Lingerie data={brandsData['Lingerie & Sleepwear']} />}
-                {displayOverview && <Overview/>}
-            </div>
+
+                {<div className='w-full ml-[244px] flex flex-col items-center bg-slate-100 overflow-x-hidden'>
+                {displayIndieFusion && <IndieFusion data={brandsData['Indian & Fusion Wear']} setLoading={setLoading} />}
+                {displayWestern && <Western data={brandsData['Western Wear']} setLoading={setLoading} />}
+                {displayLingerie && <Lingerie data={brandsData['Lingerie & Sleepwear']} setLoading={setLoading} />}
+                {displayOverview && <Overview setLoading={setLoading} />}
+            </div>}
 
           </div>
       </div>

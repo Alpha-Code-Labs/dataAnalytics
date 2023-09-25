@@ -5,7 +5,6 @@ import arrow_down_icon from '../../assets/images/keyboard_arrow_down_FILL0_wght4
   
 export default function SubCatDetails(props){
 
-    const data = props.data
     const ref = useRef(null)
     const setShowDetails = props.setShowDetails
 
@@ -27,21 +26,27 @@ export default function SubCatDetails(props){
 
       },[]);
 
-    
-    return(<>
+      const [data, setData] = useState(props.data)
+
+      
+      const sortData = ()=>{
         
-        <div ref={ref} className="shadow-lg absolute bg-white left-[25%] top-[5%]  w-[50%] h-[90%]   rounded z-20 focus:outline-1 overflow-y-scroll"  >
-            
-            <div className="fixed w-[50%] h-[44px] left-[25%] top[5%] bg-white p-4 shadow-sm">
+      }
+    return(<>
+         
+         <div className="fixed w-[50%] h-[44px] left-[25%] top-[6%] bg-white p-4 shadow-sm z-20 rounded-t">
                 <div className="flex gap-4">
-                    <p className="text-md text-gray-600 w-1/2">Brand Name</p>
+                    <p className="text-md text-gray-600 w-1/2" onClick={()=>{sortData('brandName')}} >Brand Name</p>
                     <p className="text-md text-gray-600 w-1/6">Min Price</p>
                     <p className="text-md text-gray-600 w-1/6">Max Price</p>
                     <p className="text-md text-gray-600 w-1/6">Average</p>
                 </div>
             </div>
 
-            <div className="pt-[50px] p-4">
+        <div ref={ref} className="shadow-lg absolute bg-white left-[25%] top-[calc(6%+44px)]  w-[50%] h-[calc(88%-44px)]  z-10 focus:outline-1 overflow-y-scroll"  >
+            
+
+            <div className="pt-2 p-4">
                 {data.map(brand=>{
                    return( 
                     <>
