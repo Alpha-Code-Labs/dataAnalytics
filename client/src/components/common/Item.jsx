@@ -25,7 +25,7 @@ export default function Item(props){
                 <div className="flex w-1/3 md:mb-10 items-center gap-4">
                 
                     <div className="grid grid-cols-2 grid-rows-2">
-                        <Tile text='Brands' val={brandCount} /> 
+                        <div><Tile text='Brands' val={brandCount} /></div>
                         <Tile text='Minimum Price' val={minPrice} />
                         <Tile text='Average' val={avgPrice} />
                         <Tile text='Maximum Price' val={maxPrice} />
