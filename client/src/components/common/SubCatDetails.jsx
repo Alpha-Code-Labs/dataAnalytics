@@ -37,8 +37,8 @@ export default function SubCatDetails(props){
          <div className="fixed w-[50%] h-[44px] left-[25%] top-[6%] bg-white p-4 shadow-sm z-20 rounded-t">
                 <div className="flex gap-4">
                     <p className="text-md text-gray-600 w-1/2" onClick={()=>{sortData('brandName')}} >Brand Name</p>
-                    <p className="text-md text-gray-600 w-1/6">Min Price</p>
-                    <p className="text-md text-gray-600 w-1/6">Max Price</p>
+                    <p className="text-md text-gray-600 w-1/6">Min</p>
+                    <p className="text-md text-gray-600 w-1/6">Max</p>
                     <p className="text-md text-gray-600 w-1/6">Average</p>
                 </div>
             </div>
@@ -47,10 +47,11 @@ export default function SubCatDetails(props){
             
 
             <div className="pt-2 p-4">
-                {data.map(brand=>{
+                {data.map((brand,index)=>{
+                    console.log(index, brand.brandName)
                    return( 
                     <>
-                   <div className="flex gap-2">
+                   <div key={index} className="flex gap-2">
                         <p className="text-sm text-gray-600 w-1/2 ">{titleCase(brand.brandName)}</p>    
                         <p className="text-sm text-gray-600 w-1/6 text-center">{brand.min}</p>
                         <p className="text-sm text-gray-600 w-1/6 text-center">{brand.max}</p>
@@ -68,7 +69,15 @@ export default function SubCatDetails(props){
 }
 
 function titleCase(str){
-    str = str.toLowerCase().split(' ').map(word=>word.replace(word[0],word[0].toUpperCase()))
+    str = str.toLowerCase().split(' ')
+    str = str.map(word=>{
+        if(word.length>0 && word){
+            return word.trim()
+        }
+    })
+   str = str.filter(word=>word!=undefined)
+    console.log(str)
+    str= str.map(word=>word.replace(word[0],word[0].toUpperCase()))
     return str.join(' ')
 }
 
