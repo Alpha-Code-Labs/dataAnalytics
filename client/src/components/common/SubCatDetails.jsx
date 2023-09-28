@@ -48,7 +48,6 @@ export default function SubCatDetails(props){
 
             <div className="pt-2 p-4">
                 {data.map((brand,index)=>{
-                    console.log(index, brand.brandName)
                    return( 
                     <>
                    <div key={index} className="flex gap-2">
@@ -76,7 +75,6 @@ function titleCase(str){
         }
     })
    str = str.filter(word=>word!=undefined)
-    console.log(str)
     str= str.map(word=>word.replace(word[0],word[0].toUpperCase()))
     return str.join(' ')
 }
